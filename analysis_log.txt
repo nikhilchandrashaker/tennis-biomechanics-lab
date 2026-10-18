@@ -1,0 +1,120 @@
+{
+ "stroke_success_chi2_p": 0.7301621047168272,
+ "serve_type_speed_anova_p": 0.020965741077062682,
+ "serve_type_spin_anova_p": 0.5820730960893068,
+ "serve_type_in_chi2_p": 0.6540175935677207,
+ "serve_speed_vs_serve_toss_height_m_r": 0.08736679310699298,
+ "serve_speed_vs_shoulder_internal_rotation_deg_r": 0.10982261531007692,
+ "serve_speed_vs_knee_flexion_deg_r": 0.11206523216847403,
+ "serve_speed_vs_trunk_rotation_deg_r": 0.18767276950453157,
+ "serve_speed_vs_racket_head_speed_m_s_r": 0.3365659859950785,
+ "serve_in_per10kmh_OR": 1.106496236658465,
+ "serve_in_speed_p": 2.080488648756374e-10,
+ "serve_in_overall": 0.5423711855927964,
+ "serve_success_by_in": {
+  "0": 0.606,
+  "1": 0.607
+ },
+ "split_latency_kruskal_p_player_level": 4.028879876362711e-27,
+ "split_latency_rho_vs_skill_rank": -0.7934637844243384,
+ "logit_split_step_latency_s_OR_per_SD": 0.9927710300418598,
+ "logit_split_step_latency_s_p": 0.42812738038097775,
+ "logit_peak_acceleration_m_s2_OR_per_SD": 1.0049331983304228,
+ "logit_peak_acceleration_m_s2_p": 0.6674687743021049,
+ "logit_peak_deceleration_m_s2_OR_per_SD": 1.0035170342574145,
+ "logit_peak_deceleration_m_s2_p": 0.6878747836542631,
+ "logit_lateral_displacement_m_OR_per_SD": 0.988556898184252,
+ "logit_lateral_displacement_m_p": 0.17384724641248872,
+ "logit_movement_distance_m_OR_per_SD": 0.9811668585454071,
+ "logit_movement_distance_m_p": 0.0176463212256539,
+ "logit_change_direction_angle_deg_OR_per_SD": 0.9985741319460074,
+ "logit_change_direction_angle_deg_p": 0.8794632796877746,
+ "success_split_step_used": {
+  "false": 0.591,
+  "true": 0.604
+ },
+ "ball_speed_per_1ms_rhs_kmh": 1.1556165890127859,
+ "ball_speed_rhs_model_r2": 0.8275292054121091,
+ "rhs_from_angles_r2": 0.5061571822734751,
+ "rhs_angle_coefs": {
+  "trunk_rotation_deg": 0.03638706276859728,
+  "hip_rotation_deg": 0.031487368747159405,
+  "shoulder_internal_rotation_deg": 0.015551266251578646,
+  "elbow_flexion_deg": 0.0020371502839869964,
+  "knee_flexion_deg": 0.02652874584819105
+ },
+ "rhs_from_angles_plus_athlete_r2": 0.6396979419970126,
+ "fe_shot_speed_kmh_per_0.1_fatigue": -0.01654822201546245,
+ "fe_shot_speed_kmh_p": 0.5378508774817965,
+ "fe_split_step_latency_s_per_0.1_fatigue": 0.0003540611265172703,
+ "fe_split_step_latency_s_p": 0.038344715347353536,
+ "fe_peak_acceleration_m_s2_per_0.1_fatigue": -0.0009987602535649683,
+ "fe_peak_acceleration_m_s2_p": 0.49373184014945604,
+ "fe_recovery_time_s_per_0.1_fatigue": 0.28703301698176537,
+ "fe_recovery_time_s_p": 0.0,
+ "fe_heart_rate_bpm_per_0.1_fatigue": 3.7964509129322255,
+ "fe_heart_rate_bpm_p": 0.0,
+ "fe_racket_head_speed_m_s_per_0.1_fatigue": -0.01317400718615815,
+ "fe_racket_head_speed_m_s_p": 0.1381920537796383,
+ "success_logit_fatigue_OR_per_0.1": 0.9646278361537214,
+ "success_logit_fatigue_p": 8.81242112941125e-13,
+ "fatigue_by_skill": {
+  "recreational": 0.441,
+  "club": 0.443,
+  "competitive": 0.457,
+  "elite": 0.472
+ },
+ "session_rpe_vs_load_r": 0.12102106383596642,
+ "session_rpe_vs_duration_r": -0.02244461299529407,
+ "session_rpe_vs_dist_r": 0.03315905174648877,
+ "session_maxfat_vs_sleep_r": -0.02939988104320718,
+ "session_maxfat_vs_temp_r": 0.02324337884972228,
+ "player_success_sd": 0.06146396255910724,
+ "player_success_sd_if_pure_chance": 0.030983866769659335,
+ "player_level_success_vs_latent_power_r": 0.05853940874890006,
+ "player_level_success_vs_latent_mobility_r": 0.21091803628514913
+}
+
+ stroke_summary_extended
+  stroke_type  shots    speed      spin     rhs  contact_h  success  winner  error    net
+0       serve   9995  166.188  1999.797  33.113      1.473    0.607   0.081  0.268  0.125
+1    forehand  17002  103.377  2548.537  27.211      1.012    0.599   0.075  0.276  0.124
+2    backhand  13512   93.263  2098.708  24.143      1.013    0.598   0.082  0.276  0.125
+3      volley   6513   69.677   815.894  18.259      1.012    0.599   0.079  0.273  0.128
+4    overhead   2978  116.032  1646.820  29.029      1.292    0.600   0.081  0.270  0.130
+
+ serve_types
+  serve_type     n    speed      spin   toss  shoulder_rot    knee  serve_in  success
+0       flat  4849  166.106  2001.221  2.783       153.219  59.996     0.538    0.610
+1       kick  2503  165.675  1991.853  2.780       153.320  60.516     0.549    0.603
+2      slice  2643  166.824  2004.708  2.786       153.702  60.123     0.545    0.603
+
+ footwork_by_skill
+    skill_level  split_step_latency  split_step_used  lateral  distance  accel  decel  success
+0  recreational               0.339            0.681    0.965     1.659  2.698  2.914    0.551
+1          club               0.318            0.736    1.058     1.761  3.066  3.198    0.602
+2   competitive               0.294            0.799    1.162     1.868  3.472  3.500    0.637
+3         elite               0.276            0.858    1.263     1.964  3.772  3.754    0.658
+
+ kinetic_chain_correlations
+     stroke  rhs_vs_ball_speed_r  trunk_rotation_deg_vs_rhs_r  hip_rotation_deg_vs_rhs_r  shoulder_internal_rotation_deg_vs_rhs_r  elbow_flexion_deg_vs_rhs_r  knee_flexion_deg_vs_rhs_r
+0     serve                0.337                        0.128                      0.082                                    0.062                       0.001                      0.071
+1  forehand                0.351                        0.094                      0.089                                    0.072                       0.009                      0.074
+2  backhand                0.343                        0.109                      0.081                                    0.055                       0.000                      0.069
+3    volley                0.343                        0.108                      0.089                                    0.073                       0.012                      0.060
+4  overhead                0.331                        0.125                      0.067                                    0.084                       0.004                      0.092
+
+ success_by_skill
+          skill  success     lo     hi  players
+0  recreational    0.551  0.540  0.561       58
+1          club    0.602  0.592  0.614       79
+2   competitive    0.637  0.621  0.654       42
+3         elite    0.658  0.640  0.677       21
+
+ success_by_fatigue_bin
+         fat_bin      mean   size
+0  (-0.001, 0.2]  0.628444   5154
+1     (0.2, 0.4]  0.608902  15390
+2     (0.4, 0.6]  0.600491  17927
+3     (0.6, 0.8]  0.579377  10047
+4     (0.8, 1.0]  0.560054   1482

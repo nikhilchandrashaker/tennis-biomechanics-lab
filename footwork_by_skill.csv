@@ -1,0 +1,5 @@
+skill_level,split_step_latency,split_step_used,lateral,distance,accel,decel,success
+recreational,0.339,0.681,0.965,1.659,2.698,2.914,0.551
+club,0.318,0.736,1.058,1.761,3.066,3.198,0.602
+competitive,0.294,0.799,1.162,1.868,3.472,3.5,0.637
+elite,0.276,0.858,1.263,1.964,3.772,3.754,0.658

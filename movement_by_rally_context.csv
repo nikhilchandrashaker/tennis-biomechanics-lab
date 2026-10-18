@@ -1,0 +1,5 @@
+rally_context,distance,lateral,accel,decel,success
+approach,1.772,1.083,3.114,3.24,0.596
+baseline_rally,1.775,1.074,3.117,3.235,0.599
+defensive_retrieval,1.783,1.076,3.122,3.243,0.601
+first_or_second_serve,1.77,1.069,3.123,3.239,0.607

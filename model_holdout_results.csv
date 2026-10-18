@@ -1,0 +1,5 @@
+model,auc,logloss,brier,acc
+Logistic regression,0.5542,0.6649,0.2361,0.6082
+Random forest,0.5451,0.6661,0.2366,0.6095
+Gradient boosting,0.5401,0.6667,0.237,0.6092
+Base rate,0.5,0.6692,0.2381,0.6095

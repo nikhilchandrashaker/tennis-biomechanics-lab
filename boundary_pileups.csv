@@ -1,0 +1,11 @@
+column,min,n_at_min,max,n_at_max
+shot_speed_kmh,25.0,6,225.0,1
+spin_rpm,0.0,250,4466.0,1
+racket_head_speed_m_s,5.0,9,45.0,48
+trunk_rotation_deg,5.0,33,80.0,36
+shoulder_internal_rotation_deg,15.0,29,190.0,135
+elbow_flexion_deg,5.0,134,93.9,1
+knee_flexion_deg,5.0,34,97.6,1
+hip_rotation_deg,3.0,82,70.0,11
+fatigue_index_0_1,0.0,292,1.0,38
+movement_distance_m,0.1,2,5.0,93

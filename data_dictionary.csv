@@ -1,0 +1,41 @@
+file,column,definition,unit_or_type
+athletes.csv,player_id,Unique synthetic participant identifier,ID
+athletes.csv,skill_level,Synthetic skill group assigned to participant,categorical
+athletes.csv,handedness,Synthetic playing handedness,categorical
+athletes.csv,sex_category_synthetic,Synthetic demographic category; not sourced from real participants,categorical
+athletes.csv,age_years,Synthetic age,years
+athletes.csv,height_cm,Synthetic standing height,cm
+athletes.csv,body_mass_kg,Synthetic body mass,kg
+athletes.csv,training_years,Synthetic years of tennis training,years
+sessions.csv,session_id,Unique synthetic training session identifier,ID
+sessions.csv,session_date_synthetic,Simulated date for ordering sessions; not a real event date,date
+sessions.csv,surface,Synthetic playing surface,categorical
+sessions.csv,environment_temp_c,Synthetic ambient temperature,°C
+sessions.csv,session_duration_min,Synthetic session duration,minutes
+sessions.csv,session_rpe_0_10,Synthetic rating of perceived exertion,0–10
+shots.csv,shot_id,Unique synthetic shot identifier,ID
+shots.csv,stroke_type,Simulated stroke category,categorical
+shots.csv,shot_speed_kmh_synthetic,Simulated outgoing ball speed; not radar measured,km/h
+shots.csv,spin_rpm_synthetic,Simulated ball spin; not sensor measured,rpm
+shots.csv,racket_head_speed_m_s_synthetic,Simulated racket-head speed,m/s
+shots.csv,trunk_rotation_deg_synthetic,Simulated trunk rotation angle,degrees
+shots.csv,shoulder_internal_rotation_deg_synthetic,Simulated shoulder internal rotation angle,degrees
+shots.csv,elbow_flexion_deg_synthetic,Simulated elbow flexion angle,degrees
+shots.csv,knee_flexion_deg_synthetic,Simulated knee flexion angle,degrees
+shots.csv,hip_rotation_deg_synthetic,Simulated hip rotation angle,degrees
+shots.csv,serve_type_synthetic,Synthetic serve subtype; missing for non-serves,categorical
+shots.csv,serve_toss_height_m_synthetic,Synthetic toss height; missing for non-serves,m
+shots.csv,serve_in_synthetic,Synthetic serve-in indicator; missing for non-serves,boolean
+shots.csv,split_step_latency_s_synthetic,Simulated time from cue to split-step response,seconds
+shots.csv,lateral_displacement_m_synthetic,Simulated lateral displacement,m
+shots.csv,movement_distance_m_synthetic,Simulated total movement distance for the shot,m
+shots.csv,peak_acceleration_m_s2_synthetic,Simulated peak acceleration,m/s²
+shots.csv,peak_deceleration_m_s2_synthetic,Simulated peak deceleration magnitude,m/s²
+shots.csv,impact_load_proxy_au_synthetic,Synthetic arbitrary-unit impact/load proxy; not force-plate output,AU
+shots.csv,estimated_ground_reaction_force_bw_synthetic,Synthetic body-weight-normalized GRF estimate; not measured,body weights
+shots.csv,shoulder_load_proxy_au_synthetic,Synthetic arbitrary-unit shoulder-load proxy; not clinical/instrumented,AU
+shots.csv,fatigue_index_0_1_synthetic,Simulated within-session fatigue index,0–1
+shots.csv,heart_rate_bpm_synthetic,Simulated heart rate; not wearable measured,bpm
+shots.csv,recovery_time_s_synthetic,Simulated recovery-time proxy,seconds
+shots.csv,shot_outcome_synthetic,Synthetic shot result label,categorical
+shots.csv,shot_success_synthetic,Synthetic success indicator,boolean

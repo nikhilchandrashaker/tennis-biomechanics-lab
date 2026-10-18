@@ -1,0 +1,6 @@
+stroke_type,rows,mean_speed_kmh,mean_spin_rpm,mean_racket_head_speed_m_s,success_rate
+backhand,13512,93.263,2098.708,24.143,0.598
+forehand,17002,103.377,2548.537,27.211,0.599
+overhead,2978,116.032,1646.82,29.029,0.6
+serve,9995,166.188,1999.797,33.113,0.607
+volley,6513,69.677,815.894,18.259,0.599

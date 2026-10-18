@@ -1,0 +1,13 @@
+check,status,detail
+"50,000 shots / 200 players / 1,000 sessions",PASS,
+shot_id unique,PASS,
+50 shots per session,PASS,
+5 sessions per player,PASS,
+all joins resolve (merge validated m:1),PASS,
+"serve-only fields blank for non-serves, filled for serves",PASS,
+serve_speed_kmh == shot_speed_kmh on serves (redundant column),PASS,
+"shot_success is a deterministic function of shot_outcome (winner/in_play=1, error/net=0)",PASS,=> success is NOT independent of outcome; never use outcome as a predictor
+serve_in agrees with shot_success on serves,FLAG,success rate when serve_in=True 0.607 vs False 0.606: the two labels are generated independently
+no missing values outside serve-only fields,PASS,
+"fatigue index within [0,1]",PASS,
+no large pile-ups on min/max (clipping),FLAG,"spin_rpm: 250 at min, 1 at max; racket_head_speed_m_s: 9 at min, 48 at max; trunk_rotation_deg: 33 at min, 36 at max; shoulder_internal_rotation_deg: 29 at min, 135 at max; elbow_flexion_deg: 134 at min, 1 at max; knee_flexion_deg: 34 at min, 1 at max; hip_rotation_deg: 82 at min, 11 at max; fatigue_index_0_1: 292 at min, 38 at max; movement_distance_m: 2 at min, 93 at max"

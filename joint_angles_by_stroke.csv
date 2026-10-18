@@ -1,0 +1,6 @@
+stroke_type,trunk_rotation_deg,hip_rotation_deg,shoulder_internal_rotation_deg,elbow_flexion_deg,knee_flexion_deg
+serve,42.0,32.8,153.4,32.1,60.2
+forehand,41.9,32.9,93.3,48.1,37.3
+backhand,41.9,32.6,93.4,47.9,37.3
+volley,41.9,33.1,58.6,48.0,37.3
+overhead,42.1,32.8,58.6,48.0,37.2
